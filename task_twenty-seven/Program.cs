@@ -31,7 +31,7 @@ int inputNumber = GetNumber("Введите число: ");
 int result = 0;
 
 
-while (inputNumber > 10)
+while (inputNumber > 0)
 {
     result = result + inputNumber % 10;
     inputNumber = inputNumber/10;
